@@ -1,0 +1,30 @@
+{
+  "name": "setup-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "standard && npm run test-unsafe",
+    "test-unsafe": "jest --env=node"
+  },
+  "author": "Moti Shriki",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "es6-error": "^4.1.1",
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "express-winston": "^2.6.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.10",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "standard": "^11.0.1"
+  }
+}
